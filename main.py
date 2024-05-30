@@ -13,7 +13,7 @@ if __name__ == "__main__":
     counter_id = os.getenv("COUNTER_ID")
     api_host_url = "https://api-metrika.yandex.ru"
 
-    start_date = os.getenv("2024-05-01")
+    start_date = os.getenv("START_DATE")
     yesterday = (date.today() - relativedelta(days=1)).strftime("%Y-%m-%d")
     end_date = os.getenv("END_DATE", default=yesterday)
 
