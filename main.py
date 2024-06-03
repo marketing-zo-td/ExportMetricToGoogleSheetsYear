@@ -18,10 +18,6 @@ if __name__ == "__main__":
     end_date = os.getenv("END_DATE", default=yesterday)
 
     data_list = [{
-        "source": "hits",
-        "api_field_list": hit_field_list,
-        "google_sheet_url": os.getenv("HIT_SHEET_URL")
-    }, {
         "source": "visits",
         "api_field_list": visit_field_list,
         "google_sheet_url": os.getenv("VISIT_SHEET_URL")
