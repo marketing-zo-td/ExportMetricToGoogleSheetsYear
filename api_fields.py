@@ -4,7 +4,3 @@ visit_field_list = [
     "ym:s:purchaseID",
     "ym:s:purchaseRevenue"
 ]
-
-hit_field_list = [
-    "ym:pv:regionCountry"
-]
