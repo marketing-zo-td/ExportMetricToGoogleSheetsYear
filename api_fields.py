@@ -1,5 +1,5 @@
 hit_field_list = [
-    "ym:pv:date",
+    "ym:pv:regionCountry"
 ]
 
 visit_field_list = [
