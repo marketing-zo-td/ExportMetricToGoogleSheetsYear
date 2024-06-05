@@ -1,6 +1,7 @@
 import os
 
 from datetime import date
+from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from gspread import service_account
 
@@ -13,7 +14,8 @@ if __name__ == "__main__":
     counter_id = os.getenv("COUNTER_ID")
     api_host_url = "https://api-metrika.yandex.ru"
 
-    start_date = os.getenv("START_DATE")
+#    start_date = os.getenv("START_DATE")
+    start_date = datetime.today().replace(day=1)
     yesterday = (date.today() - relativedelta(days=1)).strftime("%Y-%m-%d")
     end_date = os.getenv("END_DATE", default=yesterday)
 
