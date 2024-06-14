@@ -15,8 +15,8 @@ if __name__ == "__main__":
     api_host_url = "https://api-metrika.yandex.ru"
 
 #    start_date = os.getenv("START_DATE")
-    start_date = (date.today() - relativedelta(days=448)).strftime("%Y-%m-%d")
-    yesterday = (date.today() - relativedelta(days=378)).strftime("%Y-%m-%d")
+    start_date = (date.today() - relativedelta(days=406)).strftime("%Y-%m-%d")
+    yesterday = (date.today() - relativedelta(days=336)).strftime("%Y-%m-%d")
     end_date = os.getenv("END_DATE", default=yesterday)
 
     data_list = [{
