@@ -1,7 +1,7 @@
 visit_field_list = [
-    "ym:s:date",
-    "ym:s:counterUserIDHash",
-    "ym:s:lastTrafficSource",
-    "ym:s:purchaseID",
-    "ym:s:purchaseRevenue"
+    "ym:s:<automatic>date",
+    "ym:s:<automatic>counterUserIDHash",
+    "ym:s:<automatic>lastTrafficSource",
+    "ym:s:<automatic>purchaseID",
+    "ym:s:<automatic>purchaseRevenue"
 ]
